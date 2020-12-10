@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import AuthService from "../services/auth.service";
-
+import Navbar_white from "./navbar_white";
 export default class Profile extends Component {
   logOut() {
     AuthService.logout();
@@ -31,6 +31,8 @@ export default class Profile extends Component {
     const { currentUser } = this.state;
 
     return (
+      <div>
+      <Navbar_white/>
       <div className="container">
         {(this.state.userReady) ?
         <div>
@@ -56,6 +58,7 @@ export default class Profile extends Component {
             currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
         </ul>
       </div>: null}
+      </div>
       </div>
     );
   }

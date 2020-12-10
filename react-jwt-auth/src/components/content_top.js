@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './styles/content_top.module.css'
+import'./styles/content_top.module.css'
 
 class ContentTop extends React.Component {
     render() {

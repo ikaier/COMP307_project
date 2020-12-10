@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './styles/photocard.module.css'
+import './styles/photocard.module.css'
 
 class Photocard extends React.Component {
     render() {

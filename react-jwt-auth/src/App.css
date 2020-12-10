@@ -1,10 +1,15 @@
 @import url('./components/styles/footer.module.css');
 @import url('./components/styles/navbar_dark.module.css');
+@import url('./components/styles/navbar_white.module.css');
 @import url('./components/styles/carousel.module.css');
 @import url('./components/styles/home_login.module.css');
 @import url('./components/styles/cards.module.css');
 @import url('./components/styles/home_background.module.css');
-
+@import url('./components/styles/content_top.module.css');
+@import url('./components/styles/one_row.module.css');
+@import url('./components/styles/text_page_content.module.css');
+@import url('./components/styles/text_page_top.module.css');
+@import url('./components/styles/photocard.module.css');
 
 label {
   display: block;

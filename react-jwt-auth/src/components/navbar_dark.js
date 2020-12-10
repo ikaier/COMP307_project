@@ -11,14 +11,23 @@ class Navbar_dark extends React.Component {
         super(props);
 
         this.state = {
-            currentUser: AuthService.getCurrentUser()
+            currentUser: AuthService.getCurrentUser(),
+            loginnn:false
+            
         };
+        this.handleClick1 = this.handleClick1.bind(this);
 
     }
+    handleClick1() {
+        this.setState(prevState => ({
+           loginnn:!prevState.loginnn
+        }));
+  }
+
 
     render() {
         let content;
-        const loginnn = this.state.login;
+        const loginnn = this.state.loginnn;
         if (loginnn) {
             content=(
                
@@ -55,16 +64,21 @@ class Navbar_dark extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="outerspace mx-auto">
                     <div className="d-flex justify-content-around">
-                        <a className="" href="user"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                        
+                        {this.state.currentUser ? (
+                                <a className="" href="/profile"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                            ):(
+                                <a className="" href="/login"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                            )}
                         <div className="navbar-nav ">
                             <a href="/"><img src="/cs_icon_white.png" height="40"></img></a>
-                            <a className="nav-link active" href="update">Prospective</a>
-                            <a className="nav-link" href="article">Article</a><br></br>
-                            <a className="nav-link" href="research">Research</a>
-                            <a className="nav-link" href="people">People</a>
-                            <a className="nav-link" href="announce">Announcement</a>
-                            <a className="nav-link" href="employ">Employment</a>
-                            <a className="nav-link" href="donate">Donate</a>
+                            <a className="nav-link active" href="/update">Prospective</a>
+                            <a className="nav-link" href="/article">Article</a><br></br>
+                            <a className="nav-link" href="/research">Research</a>
+                            <a className="nav-link" href="/people">People</a>
+                            <a className="nav-link" href="/announce">Announcement</a>
+                            <a className="nav-link" href="/employ">Employment</a>
+                            <a className="nav-link" href="/donate">Donate</a>
                         </div>
                         <div className="searchbar">
                             <a className="float-right nav-link" href="#"><p className="searchtext">Search McGill CS School<img className="user-icon ml-1" src="/search-solid.svg" height="15"></img></p></a>

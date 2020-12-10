@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 
 import UserService from "../services/user.service";
-import Homepage_carousel from "./carousel";
-import Home_login from "./home_login.component";
-import Cards from "./cards";
-import Home_background from "./home_background";
+import Text_page_top from "./text_page_top";
+import Text_page_content from "./text_page_content";
 import Navbar_white from "./navbar_white";
+import Text_page_content2 from "./employ_left";
 
-export default class Home extends Component {
+export default class Employ extends Component {
   constructor(props) {
     super(props);
 
@@ -38,12 +37,10 @@ export default class Home extends Component {
     return (
       <div >
         <Navbar_white/>
-        <Homepage_carousel/>
-          <div className="container mt-8">
-        <Home_login/>
-        <Cards/>
-        <Home_background/>
-          </div>
+        <Text_page_top cotitle="Employment" title="Faculty Postings@CS" topic="employment" time="2020-11-23"/>
+        <Text_page_content2 publisher="admin" topic="Faculty Postings@CS"
+        content="There are currently no open faculty postings."/>
+       
       </div>
     );
   }

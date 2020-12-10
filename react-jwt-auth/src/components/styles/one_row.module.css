@@ -2,7 +2,7 @@
     background:rgb(241, 239, 236);    
     padding-top: 30px;
     padding-bottom: 10px;
-    padding-left: 300px;
+    padding-left: 30%;
     padding-right: 300px;
 }
 .type{
@@ -15,4 +15,12 @@
 }
 .time{
     font-size: 15px;
+}
+.tttop{
+    position: fixed;
+    top:0px;
+    background-color: white;
+    height:1400px;
+    width: 100%;
+    z-index: 999;
 }

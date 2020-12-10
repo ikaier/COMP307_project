@@ -4,7 +4,7 @@ import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
 
 import AuthService from "../services/auth.service";
-
+import Navbar_white from "./navbar_white";
 const required = value => {
   if (!value) {
     return (
@@ -81,6 +81,8 @@ export default class Login extends Component {
 
   render() {
     return (
+      <div>
+      <Navbar_white/>
       <div className="w-100 ">
         <div className="login_window card card-container">
           <img
@@ -156,6 +158,7 @@ export default class Login extends Component {
             />
           </Form>
         </div>
+      </div>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './styles/text_page_top.module.css'
+import'./styles/text_page_top.module.css'
 
 class Text_page_top extends React.Component {
     render() {
