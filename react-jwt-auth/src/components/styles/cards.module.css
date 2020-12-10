@@ -1,0 +1,105 @@
+@media (max-width: 660px){
+
+    .card_cos{
+        width: 100%;
+    }
+}
+@media (max-width: 800px){
+
+    .sticker_title{
+       font-size:0.8rem !important;
+    }
+    .sticker_quote_top, .sticker_quote_bottom{
+        font-size: 3rem !important;
+    }
+    .sticker{
+        font-size: 1rem !important;
+    }
+}
+
+
+.cards{
+    margin: 0 auto;
+    max-width: 1510px;
+}
+.c_col{
+    column-count: 1;
+}
+.card_img{
+    object-fit: cover;
+}
+
+
+
+.card_img{
+    height: 300px;
+}
+.card_sticker{
+    background: rgb(230,0,0) !important;
+}
+.card_cos{
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 15px 15px !important;
+}
+.card_body_div{
+    margin:0 auto;
+
+}
+
+.co_title{
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main_title{
+    text-align: center;
+    font-family: "Merriweather",serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card_body_sticker{
+    margin: 0 auto;
+
+}
+.sticker{
+    font-family: "Merriweather",serif;
+    font-size: 1.7rem;
+}
+.empty{
+    height: 20%;
+}
+.sticker_quote_top{
+    text-align: left;
+    font-family: Helvetica,serif;
+    font-size: 5rem;
+}
+.sticker_quote_bottom{
+    text-align: right;
+    font-family: Helvetica,serif;
+    font-size: 5rem;
+}
+.sticker_titles{
+    position: relative;
+    bottom: -50px;
+}
+.card_block{
+    width: 22px;
+    height: 3px;
+    background-color: rgb(230, 0, 0);
+    float: right;
+    position: relative;
+    top: -15px;
+    z-index: 1;
+}
+.card_space{
+
+    text-align: right;
+    display:inline-block;
+}
+.card_outer_space{
+    width:100%;
+    text-align: center;
+}

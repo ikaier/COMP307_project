@@ -1,0 +1,36 @@
+.text_top_outterspce{
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tt_cotitle{
+    height: 28px;
+    text-align: right;
+    margin: 50px auto 0 auto;
+    display:inline-block;
+}
+
+.tt_cotitle_bar{
+    width: 23px;
+    height: 4px;
+    float: right;
+    position: relative;
+    top: -21px;
+    background-color: rgb(230,0,0);
+}
+
+.tt_cotitle_text{
+    font-size: 0.8125rem;
+    font-weight: 700;
+}
+
+.tt_title{
+    font-size: 2.75rem;
+    font-family: "Merriweather",serif;
+    font-weight: 600;
+}
+
+.tt_info{
+    color: #56616d;
+    font-size: 0.7rem;
+}

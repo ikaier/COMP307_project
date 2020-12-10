@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+@media (max-width: 700px){
+
+    .slogan{
+        font-size: 1.5rem !important;
+    }
+}
+.home{
+    margin: 5% auto 0 auto;
+    max-width: 1510px;
+}
+
+.background{
+    width: 100%;
+}
+.signup{
+    background: rgb(230,0,0);
+    text-align: center;
+    margin: auto auto;
+}
+.slogan{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: #4e555b;
+    font-style: italic;
+    margin-top: 40%;
+}
+.verticalcenter{
+
+}

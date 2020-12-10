@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+@media (max-width: 1300px) {
+    #navbarNavAltMarkup {
+        display: none !important;
+    }
+    .navbar-toggler{
+        display: block !important;
+    }
+}
+
+
+.container-fluid{
+    margin: 0 auto;
+    max-width: 1920px;
+    max-height: 720px;
+}
+
+
+.searchbar{
+    line-height: 100%;
+}
+.navbar-nav{
+
+}
+
+.navbar-toggler{
+    border: none;
+    background-color:whitesmoke;
+    z-index: 9;
+    margin-top: 10px;
+}
+.outerspace{
+    width: 100%;
+    max-width:2000px;
+}
+.searchtext{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #4e555b;
+    font-size: 10px;
+}
+.nav-link{
+    padding: -20px 0;
+    font-size: 13px;
+
+}
+
+.user-icon{
+    filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(312deg) brightness(102%) contrast(90%);
+}
+.listtt2{
+    border: none;
+    position: relative;
+   
+    text-align: left;
+    background-color:whitesmoke;
+    height:150px;
+}
+.nav-link22{
+    font-size: 15px; 
+    color:rgb(85, 85, 85);
+}
+.lii{
+    height:20px;
+    
+}
+

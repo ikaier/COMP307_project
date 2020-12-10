@@ -1,0 +1,36 @@
+.aaa{
+    
+    height: 450px;
+    background:rgb(53,62,77);    
+    text-align: center;
+    
+
+}
+.bbb{
+    
+    text-align: right;
+    margin-left: 0;
+    display:inline-block;
+    height: 70px;
+    
+
+}
+.name{
+    
+    font-size: 70px;
+    color: rgb(255, 255, 255);   
+    
+}
+.line{
+ 
+    height: 10px;
+    width: 160px;  
+    background-color: rgb(230, 0, 0);
+    float: right;
+    position: relative;
+    top: -15px;
+    z-index: 1;
+}
+
+
+
