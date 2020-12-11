@@ -16,6 +16,14 @@ label {
   margin-top: 10px;
 }
 
+.topimg{
+  object-fit: cover;
+}
+.nodeco, .nodeco:visited, .nodeco:hover{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
 .card-container.card {
   max-width: 350px !important;
   padding: 40px 40px;

@@ -58,7 +58,7 @@ export default class Update extends Component {
     return (
       <div >
         <Navbar_dark/>
-        <ContentTop name="Faculty Updates" pic="pan.jpg"/>
+        <ContentTop name="Faculty Updates" pic="updates.jpg"/>
         <div style={{height: 150}}></div>
         {ttt &&
               ttt.map((data, index) => (

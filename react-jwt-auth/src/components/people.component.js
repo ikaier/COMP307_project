@@ -37,7 +37,7 @@ export default class People extends Component {
     return (
       <div >
         <Navbar_dark/>
-        <ContentTop name="People" pic="pan.jpg"/>
+        <ContentTop name="People" pic="people.jpg"/>
         <div style={{height: 150}}></div>
         <div className="peo">
         <Photocard name="J.R.R.Tolkien" description="A cool guy" pic="man.jpg"

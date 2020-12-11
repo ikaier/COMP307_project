@@ -11,7 +11,7 @@ class ContentTop extends React.Component {
                 <div className="line"></div>
                 </div>
                 <div style={{height: 50}}></div>
-                <img src={this.props.pic} alt="Trolltunga Norway" width="1000" height="300"/>
+                <img src={this.props.pic} className="topimg" alt="Trolltunga Norway" width="1000" height="300"/>
             </div>
         )
     }

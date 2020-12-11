@@ -26,7 +26,8 @@ class Cards extends React.Component {
             <div className="">
                 <CardGroup className="c_col">
                     <Card className="card_cos" >
-                        <Card.Img variant="top" src={'/banner.jpg'} className="card_img" />
+                        <a href="Card1" className="nodeco">
+                        <Card.Img variant="top" src={'/car1.jpg'} className="card_img" />
                             <Card.Body className="card_body container d-flex h-100">
                                 <div className="card_body_div justify-content-center w-100 align-self-center">
                                     <div className="card_outer_space">
@@ -37,15 +38,17 @@ class Cards extends React.Component {
                                             <div className="card_block"></div>
                                         </div>
                                         <Card.Title className="main_title">
-                                            Virtual Collaboration Techniques to Catalyze Open  Innovation
+                                            Three SOCS professors are awarded large grants to use AI to understand cancer
                                         </Card.Title>
                                     </div>
                                 </div>
                             </Card.Body>
+                        </a>
                     </Card>
 
                     <Card className={className1}>
-                        <Card.Img variant="top" src={'/banner.jpg'} className="card_img"/>
+                        <a href="Card2" className="nodeco">
+                        <Card.Img variant="top" src={'/card2.jpg'} className="card_img"/>
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_div justify-content-center w-100 align-self-center">
                                 <div className="card_outer_space">
@@ -56,15 +59,18 @@ class Cards extends React.Component {
                                         <div className="card_block"></div>
                                     </div>
                             <Card.Title className="main_title">
-                                Positions Available in the NIST lab for Fall 2019
+                                McGill IT Services Virtual Fair
                             </Card.Title>
                             </div>
                             </div>
                         </Card.Body>
+                        </a>
                     </Card>
                 </CardGroup>
                 <CardGroup className="c_col">
+
                     <Card text="white" className={className2}>
+                        <a href="announce" className="nodeco">
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_sticker justify-content-center align-self-center">
                                 <Card.Title className="sticker_title">
@@ -75,7 +81,7 @@ class Cards extends React.Component {
                                     “
                                 </Card.Title>
                                 <Card.Title className="sticker">
-                                    Concerns related to COVID-19 Concerns related to COVID-19
+                                    Concerns related to COVID-19 That will be very important!
                                 </Card.Title>
                                 <Card.Title className="sticker_quote_bottom">
                                     ”
@@ -83,9 +89,11 @@ class Cards extends React.Component {
                                 </div>
                             </div>
                         </Card.Body>
+                        </a>
                     </Card>
                     <Card className=" card_cos">
-                        <Card.Img variant="top" src={'/banner.jpg'} className="card_img" />
+                        <a href="Card3" className="nodeco">
+                        <Card.Img variant="top" src={'/card3.jpg'} className="card_img" />
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_div justify-content-center w-100 align-self-center">
                                 <div className="card_outer_space">
@@ -95,10 +103,11 @@ class Cards extends React.Component {
                                         </Card.Title>
                                         <div className="card_block"></div>
                                     </div>
-                            <Card.Title className="main_title">Card title that wraps to a new line</Card.Title>
+                            <Card.Title className="main_title">Three Faculty Members Join the School of Computer Science</Card.Title>
                             </div>
                             </div>
                         </Card.Body>
+                        </a>
                     </Card>
 
                 </CardGroup>

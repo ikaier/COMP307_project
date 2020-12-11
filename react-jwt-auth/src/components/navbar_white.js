@@ -31,7 +31,7 @@ class Navbar_white extends React.Component {
                
               <div className="listtt2" onClick={this.handleClick2}>
                         <ul>
-                           <li className="lii"> <a className="nav-link22" href="update">Prospective</a></li>
+                           <li className="lii"> <a className="nav-link22" href="update">Updates</a></li>
                            <li className="lii"> <a className="nav-link22" href="article">Article</a></li> 
                            <li className="lii"> <a className="nav-link22" href="research">Research</a></li>
                            <li className="lii"><a className="nav-link22" href="people">People</a></li>
@@ -67,7 +67,7 @@ class Navbar_white extends React.Component {
                             )}
                             <div className="navbar-nav">
                                 <a href="/"><img src="/cs_icon_black.png" height="40"></img></a>
-                                <a className="nav-link active" href="/update">Prospective<span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="/update">Updates<span className="sr-only">(current)</span></a>
                                 <a className="nav-link" href="/article">Article</a>
                                 <a className="nav-link" href="/research">Research</a>
                                 <a className="nav-link" href="/people">People</a>
