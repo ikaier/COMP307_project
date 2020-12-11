@@ -33,7 +33,7 @@ class Navbar_dark extends React.Component {
                
               <div className="listtt" onClick={this.handleClick2}>
                         <ul>
-                           <li className="lii"> <a className="nav-link2" href="update">Prospective</a></li>
+                           <li className="lii"> <a className="nav-link2" href="update">Updates</a></li>
                            <li className="lii"> <a className="nav-link2" href="article">Article</a></li> 
                            <li className="lii"> <a className="nav-link2" href="research">Research</a></li>
                            <li className="lii"><a className="nav-link2" href="people">People</a></li>
@@ -72,8 +72,8 @@ class Navbar_dark extends React.Component {
                             )}
                         <div className="navbar-nav ">
                             <a href="/"><img src="/cs_icon_white.png" height="40"></img></a>
-                            <a className="nav-link active" href="/update">Prospective</a>
-                            <a className="nav-link" href="/article">Article</a><br></br>
+                            <a className="nav-link" href="/update">Updates</a>
+                            <a className="nav-link" href="/article">Article</a>
                             <a className="nav-link" href="/research">Research</a>
                             <a className="nav-link" href="/people">People</a>
                             <a className="nav-link" href="/announce">Announcement</a>

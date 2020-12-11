@@ -25,6 +25,13 @@ import EmployRe from "./components/employ_re";
 import EmploySt from "./components/employ_st";
 import People from "./components/people.component";
 import Content from "./components/content";
+import Carousel_1 from "./components/carousel_1.component";
+import Carousel_2 from "./components/carousel_2.component";
+import Carousel_3 from "./components/carousel_3.component";
+import Card1 from "./components/card1.component";
+import Card2 from "./components/card2.component";
+import Card3 from "./components/card3.component";
+import About from "./components/about.component";
 
 class App extends Component {
   constructor(props) {
@@ -70,7 +77,13 @@ class App extends Component {
             <Route path="/user" component={BoardUser} />
             <Route path="/mod" component={BoardModerator} />
             <Route path="/admin" component={BoardAdmin} />
-
+            <Route path="/carousel_1"  component={Carousel_1} />
+            <Route path="/carousel_2"  component={Carousel_2} />
+            <Route path="/carousel_3"  component={Carousel_3} />
+            <Route path="/card1"  component={Card1} />
+            <Route path="/card2"  component={Card2} />
+            <Route path="/card3"  component={Card3} />
+              <Route path="/about"  component={About} />
             <Route exact path="/update" component={Update} />
             <Route exact path="/article" component={Article} />
             <Route exact path="/announce" component={Announce} />

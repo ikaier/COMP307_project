@@ -8,7 +8,8 @@ class Homepage_carousel extends React.Component {
             <div className='container-fluid'>
                 <Carousel className="car_item" indicators={false}>
                     <Carousel.Item className="car_item">
-                        <img className="carousel_img d-block w-100"
+                        <a href="carousel_1">
+                        <img  className="carousel_img d-block w-100"
                              src={'/banner.jpg'}/>
                         <Carousel.Caption>
                             <div className="carousel_title">
@@ -19,8 +20,11 @@ class Homepage_carousel extends React.Component {
                                 <h3 className="carousel_title2">Remote Teaching Now Avaliable </h3>
                             </div>
                         </Carousel.Caption>
+                        </a>
+
                     </Carousel.Item>
                     <Carousel.Item className="car_item">
+                        <a href="carousel_2">
                         <img
                              className="carousel_img d-block w-100"
                              src={'/banner2.jpg'}/>
@@ -34,8 +38,10 @@ class Homepage_carousel extends React.Component {
                                     and landing of this booster</h3>
                             </div>
                         </Carousel.Caption>
+                        </a>
                     </Carousel.Item>
                     <Carousel.Item className="car_item">
+                        <a href="carousel_3">
                         <img className="carousel_img d-block w-100"
                              src={'/banner3.jpg'}/>
                         <Carousel.Caption>
@@ -47,6 +53,7 @@ class Homepage_carousel extends React.Component {
                                 <h3 className="carousel_title2">Virtual Open House 2020 | Portes ouvertes virtuelle 2020</h3>
                             </div>
                         </Carousel.Caption>
+                        </a>
                     </Carousel.Item>
                 </Carousel>
             </div>

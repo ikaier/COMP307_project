@@ -59,7 +59,7 @@ export default class Research extends Component {
     return (
       <div >
         <Navbar_dark/>
-        <ContentTop name="Research" pic="pan.jpg"/>
+        <ContentTop name="Research" pic="research.jpeg"/>
         <div style={{height: 150}}></div>
         {ttt &&
               ttt.map((data, index) => (

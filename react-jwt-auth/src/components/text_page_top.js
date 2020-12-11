@@ -19,6 +19,7 @@ class Text_page_top extends React.Component {
                 <div className="tt_info_space">
                     <p className="tt_info"><b>{this.props.topic}</b> | Issued on: <b>{this.props.time}</b></p>
                 </div>
+
             </div>
         )
     }
