@@ -5,6 +5,7 @@ import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
 
 import AuthService from "../services/auth.service";
+import Navbar_white from "./navbar_white";
 
 const required = value => {
   if (!value) {
@@ -122,6 +123,8 @@ export default class Register extends Component {
 
   render() {
     return (
+        <div>
+          <Navbar_white/>
       <div className="col-md-12">
         <div className="card card-container">
           <img
@@ -204,6 +207,7 @@ export default class Register extends Component {
           </Form>
         </div>
       </div>
+        </div>
     );
   }
 }
