@@ -1,6 +1,6 @@
 Group 15
 We have been permitted by professor Joseph to submit the project two days late. Sorry for the inconvenience.
-Team member: Houkai Qian & Xuechen Li
+Team member: Houkai Qian & Janet Wang
 TO run the site:
     in backend:
         -npm install
