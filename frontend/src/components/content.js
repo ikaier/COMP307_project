@@ -33,7 +33,7 @@ export default class Content extends Component {
         <Navbar_white/>
         <Text_page_top cotitle="Content" title={this.props.topic} topic={this.props.author} time={this.props.time}/>
         <Text_page_content publisher={this.props.author} topic="Announcement"
-        content={this.props.txt}/>
+        content={this.props.txt} type={this.props.type}/>
        
       </div>
       

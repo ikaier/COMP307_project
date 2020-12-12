@@ -32,6 +32,7 @@ import Card1 from "./components/card1.component";
 import Card2 from "./components/card2.component";
 import Card3 from "./components/card3.component";
 import About from "./components/about.component";
+import Add from "./components/post";
 
 class App extends Component {
   constructor(props) {
@@ -84,16 +85,17 @@ class App extends Component {
             <Route path="/card2"  component={Card2} />
             <Route path="/card3"  component={Card3} />
               <Route path="/about"  component={About} />
-            <Route exact path="/update" component={Update} />
-            <Route exact path="/article" component={Article} />
-            <Route exact path="/announce" component={Announce} />
-            <Route exact path="/research" component={Research} />
+            <Route exact path="/Update" component={Update} />
+            <Route exact path="/Article" component={Article} />
+            <Route exact path="/Announcement" component={Announce} />
+            <Route exact path="/Research" component={Research} />
             <Route exact path="/donate" component={Donate} />
             <Route exact path="/employ" component={Employ} />
             <Route exact path="/people" component={People} />
             <Route path="/employ_re" component={EmployRe} />
             <Route path="/employ_st" component={EmploySt} />
             <Route path="/content" component={Content} />
+            <Route path="/post" component={Add} />
           </Switch>
         </div>
         <Footer/>

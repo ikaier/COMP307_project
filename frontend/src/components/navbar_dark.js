@@ -33,11 +33,11 @@ class Navbar_dark extends React.Component {
                
               <div className="listtt" onClick={this.handleClick2}>
                         <ul>
-                           <li className="lii"> <a className="nav-link2" href="update">Updates</a></li>
-                           <li className="lii"> <a className="nav-link2" href="article">Article</a></li> 
-                           <li className="lii"> <a className="nav-link2" href="research">Research</a></li>
+                           <li className="lii"> <a className="nav-link2" href="Update">Updates</a></li>
+                           <li className="lii"> <a className="nav-link2" href="Article">Article</a></li> 
+                           <li className="lii"> <a className="nav-link2" href="Research">Research</a></li>
                            <li className="lii"><a className="nav-link2" href="people">People</a></li>
-                           <li className="lii"><a className="nav-link2" href="announce">Announcement</a></li>
+                           <li className="lii"><a className="nav-link2" href="Announcement">Announcement</a></li>
                            <li className="lii"><a className="nav-link2" href="employ">Employment</a></li>
                            <li className="lii"><a className="nav-link2" href="donate">Donate</a></li>
                            
@@ -53,7 +53,11 @@ class Navbar_dark extends React.Component {
 
         return (
             <nav className="navbar navbar-expand-lg navbar-dark">
-            <a className="navbar-toggler" href="user"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+            {this.state.currentUser ? (
+                                <a className="navbar-toggler" href="/profile"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                            ):(
+                                <a className="navbar-toggler" href="/login"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                            )}
             <a className="navbar-toggler mx-auto" href="/"><img src="/cs_icon_white.png" height="40"></img></a>
             <button  className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"onClick={this.handleClick1}>
@@ -72,11 +76,11 @@ class Navbar_dark extends React.Component {
                             )}
                         <div className="navbar-nav ">
                             <a href="/"><img src="/cs_icon_white.png" height="40"></img></a>
-                            <a className="nav-link" href="/update">Updates</a>
-                            <a className="nav-link" href="/article">Article</a>
-                            <a className="nav-link" href="/research">Research</a>
+                            <a className="nav-link" href="/Update">Updates</a>
+                            <a className="nav-link" href="/Article">Article</a>
+                            <a className="nav-link" href="/Research">Research</a>
                             <a className="nav-link" href="/people">People</a>
-                            <a className="nav-link" href="/announce">Announcement</a>
+                            <a className="nav-link" href="/Announcement">Announcement</a>
                             <a className="nav-link" href="/employ">Employment</a>
                             <a className="nav-link" href="/donate">Donate</a>
                         </div>

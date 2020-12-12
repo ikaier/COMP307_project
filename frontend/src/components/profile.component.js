@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import AuthService from "../services/auth.service";
 import Navbar_white from "./navbar_white";
+import Add from "./post";
+import'./styles/post.module.css'
+
 export default class Profile extends Component {
   logOut() {
     AuthService.logout();
@@ -40,23 +43,21 @@ export default class Profile extends Component {
           <h3>
             <strong>{currentUser.username}</strong> , thanks for using our service.
           </h3>
-          Want to <a href="/login" className="nav-link logout_link" onClick={this.logOut}>
+         
+          <p>
+          <strong>Your Account:</strong>{" "}
+          {currentUser.email}
+        </p>
+        <strong>Upload updates:</strong>
+        <Add/>
+        <div style={{height: 50}}></div>
+        Want to <a href="/login" className="nav-link logout_link" onClick={this.logOut}>
             LogOut
           </a> ?
         </header>
-        <p>
-          <strong>Id:</strong>{" "}
-          {currentUser.id}
-        </p>
-        <p>
-          <strong>Email:</strong>{" "}
-          {currentUser.email}
-        </p>
-        <strong>Account Type:</strong>
-        <ul>
-          {currentUser.roles &&
-            currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
-        </ul>
+        
+      
+        
       </div>: null}
       </div>
       </div>

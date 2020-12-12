@@ -5,6 +5,8 @@ import CheckButton from "react-validation/build/button";
 
 import AuthService from "../services/auth.service";
 import Navbar_white from "./navbar_white";
+import'./styles/user_page.module.css'
+
 const required = value => {
   if (!value) {
     return (
@@ -83,6 +85,12 @@ export default class Login extends Component {
     return (
       <div>
       <Navbar_white/>
+      
+      <div className="h333">
+      <h1 className="h111">Welcome.</h1>
+      <h1 className="h222">Sign up/ login here.</h1>
+      </div>
+      
       <div className="w-100 ">
         <div className="login_window card card-container">
           <img
@@ -159,6 +167,7 @@ export default class Login extends Component {
           </Form>
         </div>
       </div>
+      <div style={{height: 50}}></div>
       </div>
     );
   }

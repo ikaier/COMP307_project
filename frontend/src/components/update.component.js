@@ -60,6 +60,7 @@ export default class Update extends Component {
         <Navbar_dark/>
         <ContentTop name="Faculty Updates" pic="updates.jpg"/>
         <div style={{height: 150}}></div>
+        
         {ttt &&
               ttt.map((data, index) => (
                 <Row type={data.title} topic={data.type} 

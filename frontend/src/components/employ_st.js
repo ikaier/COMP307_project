@@ -44,7 +44,7 @@ export default class EmploySt extends Component {
         Contact: Please email your CV to Jaya Nilakantan, Director. jnilakantan AT dawsoncollege.qc.ca
         
         "/>
-       
+        <div style={{height: 150}}></div>
       </div>
     );
   }

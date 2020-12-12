@@ -26,7 +26,6 @@
 
 .navbar-toggler{
     border: none;
-    background-color:whitesmoke;
     z-index: 9;
     margin-top: 10px;
 }
@@ -53,11 +52,10 @@
 .listtt2{
     border: none;
     position: relative;
-   
+    background-color: whitesmoke;
     text-align: left;
-    background-color:whitesmoke;
-    height:150px;
 }
+
 .nav-link22{
     font-size: 15px; 
     color:rgb(85, 85, 85);

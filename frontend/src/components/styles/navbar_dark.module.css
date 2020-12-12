@@ -35,13 +35,10 @@ nav{
 
 .navbar-toggler{
     border: none;
-    
+    z-index: 9;
+    margin-top: 10px;
 }
-.navbar-toggler2{
-    border: none;
-    position: fixed;
-    top:50px;
-}
+
 .outerspace{
     width: 100%;
     min-width:1300px;
@@ -68,7 +65,7 @@ nav{
     
     text-align: left;
     background-color: rgb(53,62,77);
-    height:150px;
+    
 }
 .nav-link2{
     font-size: 15px; 

@@ -40,7 +40,7 @@ export default class EmployRe extends Component {
         <Text_page_top cotitle="Employment" title="Research Postings@CS" topic="employment" time="2020-11-23"/>
         <Text_page_content2 publisher="admin" topic="Research Postings@CS"
         content="There are currently no open research postings."/>
-       
+        <div style={{height: 150}}></div>
       </div>
     );
   }

@@ -10,6 +10,8 @@
 @import url('./components/styles/text_page_content.module.css');
 @import url('./components/styles/text_page_top.module.css');
 @import url('./components/styles/photocard.module.css');
+@import url('./components/styles/user_page.module.css');
+@import url('./components/styles/post.module.css');
 
 label {
   display: block;

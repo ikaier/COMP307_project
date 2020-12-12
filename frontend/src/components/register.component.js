@@ -3,7 +3,7 @@ import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
-
+import'./styles/user_page.module.css'
 import AuthService from "../services/auth.service";
 import Navbar_white from "./navbar_white";
 
@@ -125,6 +125,11 @@ export default class Register extends Component {
     return (
         <div>
           <Navbar_white/>
+          <div className="h333">
+      <h1 className="h111">Sign up</h1>
+      <h1 className="h222">Welcome join.</h1>
+      </div>
+
       <div className="col-md-12">
         <div className="card card-container">
           <img
@@ -207,6 +212,7 @@ export default class Register extends Component {
           </Form>
         </div>
       </div>
+      
         </div>
     );
   }

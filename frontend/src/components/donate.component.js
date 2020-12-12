@@ -37,7 +37,7 @@ export default class Announce extends Component {
       <div >
         <Navbar_white/>
         <Text_page_top cotitle="DONATE" title="Grace Hopper Celebration" topic="COVID-19 UPDATES" time="2020-11-23"/>
-        <Text_page_content publisher="admin" topic="ANNOUNCEMENT"
+        <Text_page_content publisher="admin" topic="ANNOUNCEMENT" type="Announcement"
         content="Help us send McGill students to the Grace Hopper Celebration of Women in Computing, and in turn build a strong and inclusive community here at McGill University.
 
 Computer Science has historically been a predominately male-driven field, but enrolment in the School of Computer Science (SOCS) has tripled since 2009, and over 30% of students are female. Given the steep rise in enrolment at SOCS, The Undergraduate Societies have committed to sending two women to The Grace Hopper Celebration (GHC) of Women in Computing. We hope to increase this impact by sending an additional 6 women to GHC.

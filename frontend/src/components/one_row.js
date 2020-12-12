@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './styles/one_row.module.css'
+import './styles/one_row.module.css'
 import {Link} from 'dva/router'
 import Content from "./content";
 class Row extends React.Component {
