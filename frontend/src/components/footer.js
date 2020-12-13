@@ -13,7 +13,7 @@ class Footer extends React.Component {
                     <a className="footer_link" href={'https://www.cs.mcgill.ca/about/'}>CONTACT US</a>
                     <a className="footer_link" href={'https://www.mcgill.ca/'}>MCGILL HOMEPAGE</a>
                     <a className="footer_link" href={'https://github.com/ikaier/COMP307_project'}>GITHUB</a>
-                    <a className="footer_link" href={'/about'}>ABOUT</a>
+                    <a className="footer_link" href={'#/about'}>ABOUT</a>
                 </div>
             </div>
                 <div className="social_links">

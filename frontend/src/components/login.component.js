@@ -140,7 +140,7 @@ export default class Login extends Component {
                 <span>Login</span>
               </button>
               <a
-                  href={'/register'}
+                  href={'#/register'}
                   className="btn btn-secondary btn-block"
                   disabled={this.state.loading}
               >

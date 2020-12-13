@@ -184,7 +184,7 @@ export default class Register extends Component {
 
                 <div className="form-group">
                   <button className="btn btn-primary btn-block">Sign Up</button>
-                  <a  href={'/login'} className="btn btn-secondary btn-block">Log in</a>
+                  <a  href={'#/login'} className="btn btn-secondary btn-block">Log in</a>
                 </div>
               </div>
             )}
