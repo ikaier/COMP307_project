@@ -26,7 +26,7 @@ class Cards extends React.Component {
             <div className="">
                 <CardGroup className="c_col">
                     <Card className="card_cos" >
-                        <a href="Card1" className="nodeco">
+                        <a href="#/Card1" className="nodeco">
                         <Card.Img variant="top" src={'/car1.jpg'} className="card_img" />
                             <Card.Body className="card_body container d-flex h-100">
                                 <div className="card_body_div justify-content-center w-100 align-self-center">
@@ -47,7 +47,7 @@ class Cards extends React.Component {
                     </Card>
 
                     <Card className={className1}>
-                        <a href="Card2" className="nodeco">
+                        <a href="#/Card2" className="nodeco">
                         <Card.Img variant="top" src={'/card2.jpg'} className="card_img"/>
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_div justify-content-center w-100 align-self-center">
@@ -70,7 +70,7 @@ class Cards extends React.Component {
                 <CardGroup className="c_col">
 
                     <Card text="white" className={className2}>
-                        <a href="announce" className="nodeco">
+                        <a href="#/announcement" className="nodeco">
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_sticker justify-content-center align-self-center">
                                 <Card.Title className="sticker_title">
@@ -92,7 +92,7 @@ class Cards extends React.Component {
                         </a>
                     </Card>
                     <Card className=" card_cos">
-                        <a href="Card3" className="nodeco">
+                        <a href="#/Card3" className="nodeco">
                         <Card.Img variant="top" src={'/card3.jpg'} className="card_img" />
                         <Card.Body className="card_body container d-flex h-100">
                             <div className="card_body_div justify-content-center w-100 align-self-center">

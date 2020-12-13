@@ -8,7 +8,7 @@ class Homepage_carousel extends React.Component {
             <div className='container-fluid'>
                 <Carousel className="car_item" indicators={false}>
                     <Carousel.Item className="car_item">
-                        <a href="carousel_1">
+                        <a href="#/carousel_1">
                         <img  className="carousel_img d-block w-100"
                              src={'/banner.jpg'}/>
                         <Carousel.Caption>
@@ -24,7 +24,7 @@ class Homepage_carousel extends React.Component {
 
                     </Carousel.Item>
                     <Carousel.Item className="car_item">
-                        <a href="carousel_2">
+                        <a href="#/carousel_2">
                         <img
                              className="carousel_img d-block w-100"
                              src={'/banner2.jpg'}/>
@@ -41,7 +41,7 @@ class Homepage_carousel extends React.Component {
                         </a>
                     </Carousel.Item>
                     <Carousel.Item className="car_item">
-                        <a href="carousel_3">
+                        <a href="#/carousel_3">
                         <img className="carousel_img d-block w-100"
                              src={'/banner3.jpg'}/>
                         <Carousel.Caption>
