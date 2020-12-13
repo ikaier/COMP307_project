@@ -4,6 +4,7 @@ import  './styles/text_page_content.module.css'
 
 class Text_page_content extends React.Component {
     render() {
+        
         return (
             <div className="tc_outterspce row">
                 <div className="col-4">
@@ -11,7 +12,7 @@ class Text_page_content extends React.Component {
                         <p className="tc_lefttext">POSTED BY: {this.props.publisher}</p>
                     </div>
                     <div className="tc_leftside my-1">
-                        <a href={this.props.type}><p className="tc_lefttext">ALL {this.props.type}</p></a>
+                        <a href="/"><p className="tc_lefttext">Back to Home</p></a>
                     </div>
                 </div>
                 <div className="col-8">{this.props.content}</div>

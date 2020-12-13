@@ -33,13 +33,13 @@ class Navbar_dark extends React.Component {
                
               <div className="listtt" onClick={this.handleClick2}>
                         <ul>
-                           <li className="lii"> <a className="nav-link2" href="Update">Updates</a></li>
-                           <li className="lii"> <a className="nav-link2" href="Article">Article</a></li> 
-                           <li className="lii"> <a className="nav-link2" href="Research">Research</a></li>
-                           <li className="lii"><a className="nav-link2" href="people">People</a></li>
-                           <li className="lii"><a className="nav-link2" href="Announcement">Announcement</a></li>
-                           <li className="lii"><a className="nav-link2" href="employ">Employment</a></li>
-                           <li className="lii"><a className="nav-link2" href="donate">Donate</a></li>
+                           <li className="lii"> <a className="nav-link2" href="#/Update">Updates</a></li>
+                           <li className="lii"> <a className="nav-link2" href="#/Article">Article</a></li> 
+                           <li className="lii"> <a className="nav-link2" href="#/Research">Research</a></li>
+                           <li className="lii"><a className="nav-link2" href="#/people">People</a></li>
+                           <li className="lii"><a className="nav-link2" href="#/Announcement">Announcement</a></li>
+                           <li className="lii"><a className="nav-link2" href="#/employ">Employment</a></li>
+                           <li className="lii"><a className="nav-link2" href="#/donate">Donate</a></li>
                            
                            </ul>
                 
@@ -54,9 +54,9 @@ class Navbar_dark extends React.Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark">
             {this.state.currentUser ? (
-                                <a className="navbar-toggler" href="/profile"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                                <a className="navbar-toggler" href="#/profile"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             ):(
-                                <a className="navbar-toggler" href="/login"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                                <a className="navbar-toggler" href="#/login"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             )}
             <a className="navbar-toggler mx-auto" href="/"><img src="/cs_icon_white.png" height="40"></img></a>
             <button  className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -70,19 +70,19 @@ class Navbar_dark extends React.Component {
                     <div className="d-flex justify-content-around">
                         
                         {this.state.currentUser ? (
-                                <a className="" href="/profile"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                                <a className="" href="#/profile"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             ):(
-                                <a className="" href="/login"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
+                                <a className="" href="#/login"><img className="user-icon" src="/user-circle-solid.svg" height="35"></img></a>
                             )}
                         <div className="navbar-nav ">
                             <a href="/"><img src="/cs_icon_white.png" height="40"></img></a>
-                            <a className="nav-link" href="/Update">Updates</a>
-                            <a className="nav-link" href="/Article">Article</a>
-                            <a className="nav-link" href="/Research">Research</a>
-                            <a className="nav-link" href="/people">People</a>
-                            <a className="nav-link" href="/Announcement">Announcement</a>
-                            <a className="nav-link" href="/employ">Employment</a>
-                            <a className="nav-link" href="/donate">Donate</a>
+                            <a className="nav-link" href="#/Update">Updates</a>
+                            <a className="nav-link" href="#/Article">Article</a>
+                            <a className="nav-link" href="#/Research">Research</a>
+                            <a className="nav-link" href="#/people">People</a>
+                            <a className="nav-link" href="#/Announcement">Announcement</a>
+                            <a className="nav-link" href="#/employ">Employment</a>
+                            <a className="nav-link" href="#/donate">Donate</a>
                         </div>
                         <div className="searchbar">
                             <a className="float-right nav-link" href="#"><p className="searchtext">Search McGill CS School<img className="user-icon ml-1" src="/search-solid.svg" height="15"></img></p></a>

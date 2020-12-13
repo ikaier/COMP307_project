@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route, Link, HashRouter } from "react-router-dom";
+import { HashRouter as Router,Route,Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -68,8 +68,9 @@ class App extends Component {
     return (
         <div className="bg-light">
         
-
+        
         <div className="wid">
+        <Router>
           <Switch>
             <Route exact path={["/", "/home"]} component={Home} />
             <Route exact path="/login" component={Login} />
@@ -85,8 +86,8 @@ class App extends Component {
             <Route path="/card2"  component={Card2} />
             <Route path="/card3"  component={Card3} />
               <Route path="/about"  component={About} />
-            <Route exact path="/Update" component={Update} />
-            <Route exact path="/Article" component={Article} />
+            <Route exact path="/Update/" component={Update} />
+            <Route exact path="/Article/" component={Article} />
             <Route exact path="/Announcement" component={Announce} />
             <Route exact path="/Research" component={Research} />
             <Route exact path="/donate" component={Donate} />
@@ -97,6 +98,7 @@ class App extends Component {
             <Route path="/content" component={Content} />
             <Route path="/post" component={Add} />
           </Switch>
+          </Router>
         </div>
         <Footer/>
       </div>
