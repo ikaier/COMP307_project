@@ -22,7 +22,7 @@ export default class Profile extends Component {
   componentDidMount() {
     const currentUser = AuthService.getCurrentUser();
 
-    if (!currentUser) this.setState({ redirect: "/home" });
+    if (!currentUser) this.setState({ redirect: "#/home" });
     this.setState({ currentUser: currentUser, userReady: true })
   }
 
@@ -51,7 +51,7 @@ export default class Profile extends Component {
         <strong>Upload updates:</strong>
         <Add/>
         <div style={{height: 50}}></div>
-        Want to <a href="/login" className="nav-link logout_link" onClick={this.logOut}>
+        Want to <a href="#/login" className="nav-link logout_link" onClick={this.logOut}>
             LogOut
           </a> ?
         </header>
