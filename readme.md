@@ -26,22 +26,22 @@ Main page
 
 
 
-![main_page](/Users/houkai/Desktop/mcgill_cs/main_page.png)
+![main_page](/main_page.png)
 
 
 
 mobile view:
 
-![main_mobile](/Users/houkai/Desktop/mcgill_cs/main_mobile.png)
+![main_mobile](/main_mobile.png)
 
 
 
 Menu view
 
-![menu](/Users/houkai/Desktop/mcgill_cs/menu.png)
+![menu](/menu.png)
 
 
 
 Content view:
 
-![content](/Users/houkai/Desktop/mcgill_cs/content.png)
+![content](/content.png)
