@@ -22,7 +22,7 @@ TO run the site:<br>
 
 ### ---------------------------Website preview-------------------------------
 
-Main page
+### Main page
 
 
 
@@ -30,18 +30,16 @@ Main page
 
 
 
-mobile view:
+### mobile view:
+
+
 
 ![main_mobile](/main_mobile.png)
 
 
 
-Menu view
-
-![menu](/menu.png)
 
 
-
-Content view:
+### Content view:
 
 ![content](/content.png)
