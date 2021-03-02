@@ -19,3 +19,29 @@ TO run the site:<br>
         -npm install<br>
         -npm start<br>
 -Our data are all stored on online database: MongoDB-atlas, so we don't have any local database file.
+
+### ---------------------------Website preview-------------------------------
+
+Main page
+
+
+
+![main_page](/Users/houkai/Desktop/mcgill_cs/main_page.png)
+
+
+
+mobile view:
+
+![main_mobile](/Users/houkai/Desktop/mcgill_cs/main_mobile.png)
+
+
+
+Menu view
+
+![menu](/Users/houkai/Desktop/mcgill_cs/menu.png)
+
+
+
+Content view:
+
+![content](/Users/houkai/Desktop/mcgill_cs/content.png)
