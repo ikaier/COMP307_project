@@ -1,6 +1,13 @@
 This is McGill COMP 307 Webpage Design final project.<br>
 This project is to redesign McGill School of Computer Science website: https://www.cs.mcgill.ca <br>
-For all detailed information, please see the report.pdf.<br>
+For all detailed information, please see the  [Report.pdf](Report.pdf) 
+
+Demo Video:
+
+https://www.youtube.com/watch?v=PDp02BqP9PE
+
+<br>
+
 <br>
 <br>
 Group 15<br>
